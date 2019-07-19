@@ -1,7 +1,7 @@
 Python Base Docker Image
 ================
 
-Docker image for base Python 3 support with data science packages
+Docker image for base Python 3 support with data science packages. Around 213 MB in size
 
 ## Major Features
 - **Python 3**: with pip - Python Package Installer
