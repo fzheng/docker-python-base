@@ -16,7 +16,7 @@ RUN apk add --no-cache \
         g++ gcc gfortran file binutils \
         musl-dev python3-dev cython \
         openblas-dev postgresql-dev && \
-    apk add libstdc++ openblas openssh-client openssl postgresql-libs && \
+    apk add --no-cache make libstdc++ openblas openssh-client git bash linux-headers openssl postgresql-libs && \
     \
     ln -s locale.h /usr/include/xlocale.h && \
     \
